@@ -4,16 +4,11 @@
   width: 100%;
   padding: 40px;
 }
-.foot {
-  /* background-color: red; */
-}
+
 .foot {
   color: white;
 }
-.f_category {
-  /* background-color: pink; */
-  /* text-align: center; */
-}
+
 .f_category ul {
   list-style: none;
   padding: 0px;
@@ -30,9 +25,7 @@
   color: orange;
   border-bottom: 1px solid white;
 }
-.f_combo {
-  /* background-color: orangered; */
-}
+
 .f_combo ul {
   list-style: none;
   padding: 0px;
@@ -49,9 +42,7 @@
   color: orange;
   border-bottom: 1px solid white;
 }
-.f_service {
-  /* background-color: blueviolet; */
-}
+
 .f_service ul {
   list-style: none;
   padding: 0px;
@@ -97,8 +88,7 @@
   text-decoration: none;
   color: white;
 }
-.f_payment {
-}
+
 .f_payment img {
   height: 30px;
   width: 55px;

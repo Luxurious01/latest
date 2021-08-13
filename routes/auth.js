@@ -41,6 +41,176 @@ router.get("/register",(req , res) =>{
     res.render("register");
 });
 
+router.get("/skincare", (req, res) => {
+    res.render("skincare")
+})
+
+router.get("/haircare", (req, res) => {
+    res.render("haircare")
+})
+router.get("/bodycare", (req, res) => {
+    res.render("bodycare")
+})
+router.get("/baby", (req, res) => {
+    res.render("baby")
+})
+router.get("/men", (req, res) => {
+    res.render("men")
+})
+router.get("/healthcare", (req, res) => {
+    res.render("healthcare")
+})
+router.get("/sexualwellness", (req, res) => {
+    res.render("sexualwellness")
+})
+
+router.get("/men", (req, res) => {
+    res.render("men")
+})
+
+//skincare dropdowns routers...........
+router.get("/cream", (req, res) => {
+    res.render("cream")
+})
+router.get("/scrub", (req, res) => {
+    res.render("scrub")
+})
+router.get("/mask", (req, res) => {
+    res.render("mask")
+})
+router.get("/toner", (req, res) => {
+    res.render("toner")
+})
+router.get("/mist", (req, res) => {
+    res.render("mist")
+})
+router.get("/facewash", (req, res) => {
+    res.render("facewash")
+})
+
+//haircare routers...........
+router.get("/shampoo", (req, res) => {
+    res.render("shampoo")
+})
+router.get("/conditioner", (req, res) => {
+    res.render("conditioner")
+})
+router.get("/oil", (req, res) => {
+    res.render("oil")
+})
+router.get("/serum", (req, res) => {
+    res.render("serum")
+})
+
+//body care routers....
+router.get("/lotion", (req, res) => {
+    res.render("lotion")
+})
+router.get("/bodywash", (req, res) => {
+    res.render("bodywash")
+})
+
+//baby routers........
+router.get("/babyshampoo", (req, res) => {
+    res.render("babyshampoo")
+})
+router.get("/babyhairoil", (req, res) => {
+    res.render("babyhairoil")
+})
+router.get("/babymassageoil", (req, res) => {
+    res.render("babymassageoil")
+})
+router.get("/babytoothpaste", (req, res) => {
+    res.render("babytoothpaste")
+})
+
+router.get("/babycream", (req, res) => {
+    res.render("babycream")
+})
+router.get("/babydustingpowerd", (req, res) => {
+    res.render("babydustingpowerd")
+})
+
+//mens routers...........
+router.get("/mensshampoo", (req, res) => {
+    res.render("mensshampoo")
+})
+router.get("/mensconditioner", (req, res) => {
+    res.render("mensconditioner")
+})
+router.get("/beardoil", (req, res) => {
+    res.render("beardoil")
+})
+router.get("/beardwash", (req, res) => {
+    res.render("beardwash")
+})
+
+router.get("/beardwax", (req, res) => {
+    res.render("beardwax")
+})
+router.get("/menshairoil", (req, res) => {
+    res.render("menshairoil")
+})
+router.get("/hairwax", (req, res) => {
+    res.render("hairwax")
+})
+router.get("/detantcleanfacewash", (req, res) => {
+    res.render("detantcleanfacewash")
+})
+
+//healthcare routers.....
+router.get("/pilescurecapsules", (req, res) => {
+    res.render("pilescurecapsules")
+})
+router.get("/glucontrolcapsules", (req, res) => {
+    res.render("glucontrolcapsules")
+})
+router.get("/noniextractcapsules", (req, res) => {
+    res.render("noniextractcapsules")
+})
+router.get("/amlaextractcapsules", (req, res) => {
+    res.render("amlaextractcapsules")
+})
+
+router.get("/greencoffeebeanscapsules", (req, res) => {
+    res.render("greencoffeebeanscapsules")
+})
+router.get("/goliyextractcapsules", (req, res) => {
+    res.render("goliyextractcapsules")
+})
+router.get("/fatfreecapsules", (req, res) => {
+    res.render("fatfreecapsules")
+})
+router.get("/greenlippedcapsules", (req, res) => {
+    res.render("greenlippedcapsules")
+})
+router.get("/jointremedypainrelief", (req, res) => {
+    res.render("jointremedypainrelief")
+})
+
+router.get("/jointremedysachet", (req, res) => {
+    res.render("jointremedysachet")
+})
+router.get("/madirakillersachet", (req, res) => {
+    res.render("madirakillersachet")
+})
+router.get("/weightonweightgainsachet", (req, res) => {
+    res.render("weightonweightgainsachet")
+})
+router.get("/stratchmarksremovergel", (req, res) => {
+    res.render("stratchmarksremovergel")
+})
+
+//sexualwellness routers........
+router.get("/ashwauttejnaoil", (req, res) => {
+    res.render("ashwauttejnaoil")
+})
+router.get("/brexelantcream", (req, res) => {
+    res.render("brexelantcream")
+})
+router.get("/vaginaltighteninggel", (req, res) => {
+    res.render("vaginaltighteninggel")
+})
 
 //google login here
 router.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));

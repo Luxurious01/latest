@@ -78,16 +78,18 @@
   color: purple;
 }
 .menu_div ul li a {
-  background-image: linear-gradient(to right, goldenrod, purple);
+  background-image: linear-gradient(to right, rgb(68, 62, 68), rgb(68, 62, 68));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: normal;
-  text-transform: uppercase;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   font-family: Oswald Regular;
   text-decoration: none;
   font-size: 15px;
+}
+ul li:hover {
+  color: rgb(255, 208, 0);
 }
 .dropdown {
   position: relative;
@@ -101,9 +103,9 @@
   border-top: 2px solid purple;
   box-shadow: 5px 10px 18px #888888;
 }
-.dropdown ul li {
+/* .dropdown ul li {
   padding: 8px 0px 0px 8px;
-}
+} */
 .dropdown ul li a {
   color: black;
 }
